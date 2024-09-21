@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
+  --first-color: #2817ad;
   --second-color: #0E2431;
 }
 
@@ -96,6 +96,25 @@ canvas.particles-js-canvas-el{
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
+}
+.exp-title{
+  position: relative;
+  font-size: var(10000rem);
+  color: var(--first-color);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  margin-left: var(--mb-4);
+  text-align: left;
+}
+
+.descript{
+  position: relative;
+  font-size: var(10000rem);
+  color: #000000;
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  margin-left: var(--mb-4);
+  text-align: left;
 }
 .section-title::after{
   position: absolute;
@@ -445,3 +464,7 @@ canvas.particles-js-canvas-el{
     right: 10%;
   }
 }
+
+/* .exp-title{
+
+} */
